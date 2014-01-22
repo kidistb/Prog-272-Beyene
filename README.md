@@ -5,5 +5,5 @@ This is prog 272.
 
 It should be easy. Very easy.
 
-This is a file for prog 272
-try to push again
+This is a file for prog 272.
+Try to push again
