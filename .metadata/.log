@@ -1,0 +1,24 @@
+!SESSION 2014-01-21 16:15:59.236 -----------------------------------------------
+eclipse.buildId=3.4.2.201308081805
+java.version=1.6.0_24
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86 -data C:\Users\semue_000\Desktop\WinterClasses\Prog272\GitHub\Prog272-Beyene
+
+!ENTRY org.eclipse.core.jobs 4 2 2014-01-21 16:16:02.396
+!MESSAGE An internal error occurred during: "Start Ruble bundle manager".
+!STACK 0
+java.lang.NullPointerException
+	at java.io.File.<init>(Unknown Source)
+	at com.aptana.scripting.internal.model.BundleMonitor.beginMonitoring(BundleMonitor.java:96)
+	at com.aptana.scripting.ScriptingActivator$1.run(ScriptingActivator.java:114)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SESSION 2014-01-21 16:22:57.453 -----------------------------------------------
+eclipse.buildId=3.4.2.201308081805
+java.version=1.6.0_24
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86 -data C:\Users\semue_000\Desktop\WinterClasses\Prog272\GitHub\Prog272-Beyene
+
+!ENTRY org.eclipse.osgi 2 1 2014-01-21 16:50:11.559
+!MESSAGE NLS missing message: HttpServerSettingsTab_Title in: com.aptana.js.debug.ui.internal.launchConfigurations.messages
