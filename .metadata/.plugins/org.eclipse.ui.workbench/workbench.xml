@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="50" version="2.0">
+<workbench progressCount="48" version="2.0">
 <workbenchAdvisor/>
 <window height="720" maximized="true" width="1200" x="32" y="0">
 <fastViewData fastViewLocation="1024"/>
@@ -17,6 +17,8 @@
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="99" y="22"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="com.aptana.editor.json" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="com.aptana.editor.js" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="com.aptana.editor.html" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
@@ -30,17 +32,27 @@
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
 <part id="1"/>
+<part id="2"/>
+<part id="3"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor id="com.aptana.editor.html" name="index.html" partName="index.html" path="C:/Users/semue_000/Desktop/WinterClasses/Prog272/GitHub/Prog272-Beyene/week04Inclass_Beyene/index.html" title="index.html" tooltip="week04Inclass_Beyene/index.html" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/week04Inclass_Beyene/index.html"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="307" selectionTopPixel="0"/>
+<editor id="com.aptana.editor.js" name="index.js" partName="index.js" path="C:/Users/semue_000/Desktop/WinterClasses/Prog272/GitHub/Prog272-Beyene/inclass130/index.js" title="index.js" tooltip="inclass130/index.js" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/inclass130/index.js"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="38" selectionTopPixel="0"/>
 </editor>
-<editor activePart="true" focus="true" id="com.aptana.editor.js" name="index.js" partName="index.js" path="C:/Users/semue_000/Desktop/WinterClasses/Prog272/GitHub/Prog272-Beyene/week04Inclass_Beyene/index.js" title="index.js" tooltip="week04Inclass_Beyene/index.js" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/week04Inclass_Beyene/index.js"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="168" selectionTopPixel="0"/>
+<editor id="com.aptana.editor.json" name="index.json" partName="index.json" path="C:/Users/semue_000/Desktop/WinterClasses/Prog272/GitHub/Prog272-Beyene/inclass130/index.json" title="index.json" tooltip="inclass130/index.json" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/inclass130/index.json"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="288" selectionTopPixel="0"/>
+</editor>
+<editor activePart="true" focus="true" id="com.aptana.editor.html" name="index.html" partName="index.html" path="C:/Users/semue_000/Desktop/WinterClasses/Prog272/GitHub/Prog272-Beyene/inclass130/index.html" title="index.html" tooltip="inclass130/index.html" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/inclass130/index.html"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="258" selectionTopPixel="40"/>
+</editor>
+<editor id="com.aptana.editor.html" name="myfile.html" partName="myfile.html" path="C:/Users/semue_000/Desktop/WinterClasses/Prog272/GitHub/Prog272-Beyene/inclass130/myfile.html" title="myfile.html" tooltip="inclass130/myfile.html" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/inclass130/myfile.html"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="161" selectionTopPixel="168"/>
 </editor>
 </editors>
 <views>
@@ -52,9 +64,6 @@
 <view id="com.aptana.samples.ui.SamplesView" partName="Samples"/>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
-<expanded>
-<category IMemento.internal.id="Warnings (1 item)"/>
-</expanded>
 <columnWidths org.eclipse.ui.ide.locationField="120" org.eclipse.ui.ide.markerType="120" org.eclipse.ui.ide.pathField="160" org.eclipse.ui.ide.resourceField="120" org.eclipse.ui.ide.severityAndDescriptionField="400"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
@@ -68,14 +77,10 @@
 </view>
 <view id="com.aptana.explorer.view" partName="App Explorer">
 <viewState CommonNavigator.LINKING_ENABLED="0" GitChangedFilesFilterEnabled="" activeProject="week04Inclass_Beyene">
-<project name="Week03Prog01-Kidist">
-<selection>
-<element path="/Week03Prog01-Kidist/index.html"/>
+<project name="Week03Prog01-Kidist">&#x0A;<selection>&#x0A;<element path="/Week03Prog01-Kidist/index.html"/>
 </selection>
 </project>
-<project name="week04Inclass_Beyene">
-<selection>
-<element path="/week04Inclass_Beyene/index.js"/>
+<project name="week04Inclass_Beyene">&#x0A;<selection>&#x0A;<element path="/week04Inclass_Beyene/index.js"/>
 </selection>
 </project>
 </viewState>
@@ -84,7 +89,7 @@
 <viewState/>
 </view>
 </views>
-<perspectives activePart="org.eclipse.ui.navigator.ProjectExplorer" activePerspective="com.aptana.ui.WebPerspective">
+<perspectives activePart="com.aptana.editor.html" activePerspective="com.aptana.ui.WebPerspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="com.aptana.ui.internal.WebPerspectiveFactory" id="com.aptana.ui.WebPerspective" label="Web"/>
 <alwaysOnActionSet id="com.aptana.browser.actionSet"/>
@@ -187,132 +192,165 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" path="/Week03Prog01-Kidist/index.html"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" path="/week04Inclass_Beyene/index.html"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.js" path="/week04Inclass_Beyene/index.js"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" path="/week04Inclass_Beyene/index.html"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.js" path="/inclass130/index.js"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/inclass130/indexhaml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.json" path="/inclass130/index.json"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" path="/inclass130/new_file.html"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" path="/inclass130/index.html"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" path="/inclass130/myfile.html"/>
 </editors>
 <item historyLabel="index.html" index="0">
-<position info="not_deleted" x="669" y="0"/>
+<position info="not_deleted" x="547" y="0"/>
 </item>
-<item historyLabel="index.html" index="1">
+<item historyLabel="index.js" index="1">
+<position/>
+</item>
+<item historyLabel="index.html" index="0">
+<position info="not_deleted" x="547" y="0"/>
+</item>
+<item historyLabel="index.js" index="1">
+<position/>
+</item>
+<item historyLabel="index.js" index="1">
+<position/>
+</item>
+<item historyLabel="index.html" index="0">
+<position info="not_deleted" x="547" y="0"/>
+</item>
+<item historyLabel="index.js" index="1">
+<position/>
+</item>
+<item historyLabel="index.html" index="0">
+<position info="not_deleted" x="547" y="0"/>
+</item>
+<item historyLabel="index.js" index="1">
+<position info="not_deleted" x="293" y="0"/>
+</item>
+<item historyLabel="index.html" index="0">
+<position info="not_deleted" x="547" y="0"/>
+</item>
+<item historyLabel="index.js" index="1">
+<position/>
+</item>
+<item historyLabel="index.html" index="0">
+<position info="not_deleted" x="547" y="0"/>
+</item>
+<item historyLabel="index.js" index="1">
+<position/>
+</item>
+<item historyLabel="index.html" index="0">
+<position info="not_deleted" x="547" y="0"/>
+</item>
+<item historyLabel="index.js" index="1">
+<position/>
+</item>
+<item historyLabel="index.html" index="0">
+<position info="not_deleted" x="547" y="0"/>
+</item>
+<item historyLabel="index.js" index="1">
+<position info="not_deleted" x="293" y="0"/>
+</item>
+<item historyLabel="index.html" index="0">
+<position info="not_deleted" x="307" y="0"/>
+</item>
+<item historyLabel="index.js" index="1">
+<position info="not_deleted" x="241" y="0"/>
+</item>
+<item historyLabel="index.html" index="0">
+<position info="not_deleted" x="307" y="0"/>
+</item>
+<item historyLabel="index.js" index="1">
+<position info="not_deleted" x="168" y="0"/>
+</item>
+<item historyLabel="index.html" index="2">
+<position info="not_deleted" x="307" y="0"/>
+</item>
+<item historyLabel="index.js" index="3">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="index.html | Week03Prog01-Kidist" index="0">
-<position info="not_deleted" x="669" y="0"/>
+<item historyLabel="indexhaml" index="4">
+<position info="not_deleted" x="233" y="0"/>
 </item>
-<item historyLabel="index.html" index="1">
-<position info="not_deleted" x="547" y="0"/>
+<item historyLabel="index.json" index="5">
+<position info="not_deleted" x="288" y="0"/>
 </item>
-<item historyLabel="index.js" index="2">
-<position info="not_deleted" x="293" y="0"/>
+<item historyLabel="indexhaml" index="4">
+<position info="not_deleted" x="233" y="0"/>
 </item>
-<item historyLabel="index.html" index="1">
-<position info="not_deleted" x="547" y="0"/>
+<item historyLabel="index.js" index="3">
+<position info="not_deleted" x="38" y="0"/>
 </item>
-<item historyLabel="index.html" index="1">
-<position info="not_deleted" x="398" y="0"/>
+<item historyLabel="indexhaml" index="4">
+<position info="not_deleted" x="233" y="0"/>
 </item>
-<item historyLabel="index.js" index="2">
-<position/>
+<item historyLabel="index.js" index="3">
+<position info="not_deleted" x="38" y="0"/>
 </item>
-<item historyLabel="index.html" index="1">
-<position info="not_deleted" x="526" y="0"/>
+<item historyLabel="indexhaml" index="4">
+<position info="not_deleted" x="142" y="0"/>
 </item>
-<item historyLabel="index.js" index="2">
-<position info="not_deleted" x="293" y="0"/>
+<item historyLabel="index.json" index="5">
+<position info="not_deleted" x="0" y="288"/>
 </item>
-<item historyLabel="index.html" index="1">
-<position info="not_deleted" x="412" y="0"/>
+<item historyLabel="indexhaml" index="4">
+<position info="not_deleted" x="217" y="0"/>
 </item>
-<item historyLabel="index.js" index="2">
-<position info="not_deleted" x="293" y="0"/>
+<item historyLabel="index.json" index="5">
+<position info="not_deleted" x="0" y="288"/>
 </item>
-<item historyLabel="index.html" index="1">
-<position info="not_deleted" x="412" y="0"/>
+<item historyLabel="indexhaml" index="4">
+<position info="not_deleted" x="217" y="0"/>
 </item>
-<item historyLabel="index.js" index="2">
-<position/>
+<item historyLabel="index.js" index="3">
+<position info="not_deleted" x="38" y="0"/>
 </item>
-<item historyLabel="index.html" index="1">
-<position info="not_deleted" x="508" y="0"/>
+<item historyLabel="indexhaml" index="4">
+<position info="not_deleted" x="217" y="0"/>
 </item>
-<item historyLabel="index.js" index="2">
-<position/>
+<item historyLabel="new_file.html" index="6">
+<position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="index.html" index="1">
-<position info="not_deleted" x="487" y="11"/>
+<item historyLabel="index.json" index="5">
+<position info="not_deleted" x="0" y="288"/>
 </item>
-<item historyLabel="index.js" index="2">
-<position/>
+<item historyLabel="index.js" index="3">
+<position info="not_deleted" x="38" y="0"/>
 </item>
-<item historyLabel="index.html" index="1">
-<position info="not_deleted" x="508" y="0"/>
+<item historyLabel="indexhaml" index="4">
+<position info="not_deleted" x="86" y="67"/>
 </item>
-<item historyLabel="index.js" index="2">
-<position/>
+<item historyLabel="new_file.html" index="6">
+<position info="not_deleted" x="728" y="0"/>
 </item>
-<item historyLabel="index.html" index="1">
-<position info="not_deleted" x="547" y="0"/>
+<item historyLabel="index.json" index="5">
+<position info="not_deleted" x="0" y="288"/>
 </item>
-<item historyLabel="index.js" index="2">
-<position/>
+<item historyLabel="index.js" index="3">
+<position info="not_deleted" x="38" y="0"/>
 </item>
-<item historyLabel="index.html" index="1">
-<position info="not_deleted" x="547" y="0"/>
+<item historyLabel="indexhaml" index="4">
+<position info="not_deleted" x="191" y="26"/>
 </item>
-<item historyLabel="index.js" index="2">
-<position/>
+<item historyLabel="new_file.html" index="6">
+<position info="not_deleted" x="728" y="0"/>
 </item>
-<item historyLabel="index.js" index="2">
-<position/>
+<item historyLabel="index.html" index="7">
+<position info="not_deleted" x="237" y="0"/>
 </item>
-<item historyLabel="index.html" index="1">
-<position info="not_deleted" x="547" y="0"/>
+<item historyLabel="myfile.html" index="8">
+<position info="not_deleted" x="161" y="0"/>
 </item>
-<item historyLabel="index.js" index="2">
-<position/>
+<item historyLabel="index.html" index="7">
+<position info="not_deleted" x="258" y="0"/>
 </item>
-<item historyLabel="index.html" index="1">
-<position info="not_deleted" x="547" y="0"/>
+<item historyLabel="index.json" index="5">
+<position info="not_deleted" x="288" y="0"/>
 </item>
-<item historyLabel="index.js" index="2">
-<position info="not_deleted" x="293" y="0"/>
-</item>
-<item historyLabel="index.html" index="1">
-<position info="not_deleted" x="547" y="0"/>
-</item>
-<item historyLabel="index.js" index="2">
-<position/>
-</item>
-<item historyLabel="index.html" index="1">
-<position info="not_deleted" x="547" y="0"/>
-</item>
-<item historyLabel="index.js" index="2">
-<position/>
-</item>
-<item historyLabel="index.html" index="1">
-<position info="not_deleted" x="547" y="0"/>
-</item>
-<item historyLabel="index.js" index="2">
-<position/>
-</item>
-<item historyLabel="index.html" index="1">
-<position info="not_deleted" x="547" y="0"/>
-</item>
-<item historyLabel="index.js" index="2">
-<position info="not_deleted" x="293" y="0"/>
-</item>
-<item historyLabel="index.html" index="1">
-<position info="not_deleted" x="307" y="0"/>
-</item>
-<item historyLabel="index.js" index="2">
-<position info="not_deleted" x="241" y="0"/>
-</item>
-<item historyLabel="index.html" index="1">
-<position info="not_deleted" x="307" y="0"/>
-</item>
-<item active="true" historyLabel="index.js" index="2">
-<position info="not_deleted" x="241" y="0"/>
+<item active="true" historyLabel="index.html" index="7">
+<position info="not_deleted" x="258" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -331,6 +369,21 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" name="myfile.html" tooltip="inclass130/myfile.html">
+<persistable path="/inclass130/myfile.html"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" name="new_file.html" tooltip="inclass130/new_file.html">
+<persistable path="/inclass130/new_file.html"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.json" name="index.json" tooltip="inclass130/index.json">
+<persistable path="/inclass130/index.json"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="indexhaml" tooltip="inclass130/indexhaml">
+<persistable path="/inclass130/indexhaml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.js" name="index.js" tooltip="inclass130/index.js">
+<persistable path="/inclass130/index.js"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.js" name="index.js" tooltip="week04Inclass_Beyene/index.js">
 <persistable path="/week04Inclass_Beyene/index.js"/>
 </file>
